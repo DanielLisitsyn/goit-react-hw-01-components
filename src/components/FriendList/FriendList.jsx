@@ -13,9 +13,6 @@ export const FriendList = ({ friends }) => {
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
-      isOnline: PropTypes.bool,
-      avatar: PropTypes.string,
-      name: PropTypes.string,
       id: PropTypes.number,
     })
   ),
